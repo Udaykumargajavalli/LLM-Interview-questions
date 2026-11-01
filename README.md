@@ -12,6 +12,10 @@ A collection of interview questions covering large language models, retrieval-au
 - [Fine-tuning](fine-tuning.md) — LoRA, parameter-efficient methods, and fine-tuning strategy.
 - [Inference optimization](inference-optimization.md) — KV cache, GPU memory, quantization, and inference frameworks.
 - [Knowledge graphs](knowledge-graph.md) — GraphRAG principles and knowledge-graph challenges.
+- [Prompting](prompting.md) — zero-shot failures, prompt versioning, and consistency testing.
+- [Embeddings and vector search](embeddings-vector-search.md) — similarity search, vector database choices, and hybrid retrieval.
+- [Production engineering](production-engineering.md) — budget-aware design, real-time summarization, notebook productionization, and safe deployment.
+- [Machine learning implementation](machine-learning.md) — building a pipeline with NumPy and Pandas.
 
 ## RAG interview questions
 
@@ -22,3 +26,5 @@ The [RAG question set](RAG/readme.md) covers:
 3. Measuring whether embedding improvements help the system.
 4. Retrieving and assembling context from multiple documents.
 5. Identifying bottlenecks and redesigning a vector-store architecture as it scales.
+6. Improving latency, evidence quality, contextual precision, chunking, and retrieval freshness.
+7. Selecting a vector database for RAG over ten million documents.
